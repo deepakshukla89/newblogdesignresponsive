@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.headerBlog{
+    background-image : url('../blog\ bg.svg');
+    height: 320px;
+    background-color: #111;
+    background-size: cover;
+    background-position: center center;
+  
+}
+.all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.BlogHeadingComponent{
+    text-align: center;
+    background: rgb(255, 255, 255);
+    padding: 20px 50px;
+    border-radius: 5px ;
+    font-size: 1.5rem !important;
+    box-shadow: 0px 5px 50px rgba(0, 0, 0, 0.15);
+    margin: 10px;
+}
+.BlogHeadingComponent h1{
+    font-size: 25px;
+}
+.BlogHeadingComponent p{
+    font-size: 18px;
+}
+.BlogHeadingComponent p a{
+    text-decoration: none;
+}
+.blogs{
+    margin-top: 50px;
+}
+
+
+/* single page blog  */
+
+.back-to-main-page{
+    text-align: center;
+
+}
+.btnblogback{
+    width: 180.94px;
+    height: 30.62px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #B1C1D1;
+    margin:20px auto;
+}
+.back-to-main-page p a{
+    text-decoration: none;
+    color: white;
+}
+.blogImageFull{
+  height:20vw;
+  overflow-y: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:5%;
+}
+  @media only screen and (max-width: 1000px) {
+    .blogImageFull{
+        height:30vw;
+        overflow-y: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+ 
+  } 
+  @media only screen and (max-width: 500px) {
+    .blogImageFull{
+        height:30vw;
+        overflow-y: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .blogContentTxtImage{
+        margin: 1vw !important;
+    }
+  } 
+ .blogImageFull img{
+  width: 70vw;
+  border: 1px solid #20C2F5;
+} 
+
+.Blog-first-letter{
+    font-size:2rem;
+    color:#20C2F5 ;
+    font-weight: 600;
+}
+.NexPrebtn{
+    display: flex;
+    flex-direction: row;
+}
+.NexPre a{
+    width: 80.94px;
+    height: 30.62px;
+    background: rgba(71, 162, 223, 0.5);
+    border: 1px solid rgba(71, 162, 223, 0.5);
+    box-sizing: border-box;
+    font-size: 14px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 5px;
+    color: #20C2F5;
+    text-decoration: none;
+}
